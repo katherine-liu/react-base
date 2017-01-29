@@ -19,6 +19,7 @@ System.config({
     "core-js": "npm:core-js@1.2.7",
     "css": "github:systemjs/plugin-css@0.1.32",
     "react": "npm:react@15.4.2",
+    "react-dom": "npm:react-dom@15.4.2",
     "semantic-ui": "github:Semantic-Org/Semantic-UI@2.2.7",
     "github:Semantic-Org/Semantic-UI@2.2.7": {
       "css": "github:systemjs/plugin-css@0.1.32",
@@ -185,6 +186,13 @@ System.config({
     },
     "npm:punycode@1.3.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:react-dom@15.4.2": {
+      "fbjs": "npm:fbjs@0.8.8",
+      "loose-envify": "npm:loose-envify@1.3.1",
+      "object-assign": "npm:object-assign@4.1.1",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "react": "npm:react@15.4.2"
     },
     "npm:react@15.4.2": {
       "fbjs": "npm:fbjs@0.8.8",
