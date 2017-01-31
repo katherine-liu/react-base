@@ -8,9 +8,9 @@ class CommentList extends Component {
         super(props);
     }
     render() {
-        let commentNodes = this.props.data.map(comment => {
+        let commentNodes = this.props.data.map((comment, index) => {
             return (
-                <div>
+                <div key={index}>
                     <Comment author={comment.author} date={comment.date}>
                         {comment.text}
                     </Comment>
